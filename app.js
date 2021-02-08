@@ -75,8 +75,8 @@ const catchError = () => {
       const foodDiv = document.createElement ("div");
       foodDiv.className = "foods3";
       const foodInfo = `
-      <h3> You have not entered any valid meal name.</h3>
-      <p> Please enter any valid name or search by first letter </p>
+      <h1> You do not enter valid name.</h1>
+      <h5> Please enter correct name</h5>
 
       `;
       foodDiv.innerHTML = (foodInfo);
