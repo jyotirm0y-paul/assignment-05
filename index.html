@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <title>Assignment-05  super difficult</title>
 </head>
+
 <body>
-  
-  <script src="app.js"></script>
+  <section class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid ">
+      <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav nav-links mt-4">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Blogs
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <main id="main-section">
+    <div class="container">
+      <form class="col-md-6 m-auto py-5" id="form">
+        <div class="input-group mb-3">
+          <input type="search" id="input" placeholder="Search for meal">
+          <div class="input-group-append">
+            <button type="button" onclick="searchMeal ()" id="search-btn">Search</button>
+          </div>
+        </div>
+      </form>
+      <div id="get-error">
+      </div>
+      <div id="foods-container">
+      </div>
+      <div id="details-div">
+      </div>
+      <script src="app.js">
+      </script>
+  </main>
 </body>
+
 </html>
