@@ -1,12 +1,12 @@
 //search meals
 const searchMeal = () => {
   const searchText = document.getElementById ("input").value;
-// Input value function_____
+// Input value
   setTimeout (inputValueTime, 1000)
   function inputValueTime () {
     document.getElementById ("input").value = "";
   }
-// Input value  function_____
+// Input value
   const url = `https://www.themealdb.com/api/json/v1/1/search.php?f=${searchText}`
   console.log (url)
   
